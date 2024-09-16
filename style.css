@@ -1,0 +1,22 @@
+/* Quitar botones al input number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Estilos generales para inputs tipo number */
+input[type="number"] {
+    border: 2px solid #17a2b8;
+    border-radius: 5px;
+    padding: 10px;
+    appearance: textfield;
+    -moz-appearance:textfield;
+}
+
+/* Espaciado entre campos en pantallas más grandes */
+@media (min-width: 992px) {
+    .form-control, .form-select {
+        margin-bottom: 20px;
+    }
+}
